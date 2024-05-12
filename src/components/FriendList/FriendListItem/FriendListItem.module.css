@@ -1,0 +1,11 @@
+.name {
+    font-size: 18px;
+}
+
+.status {
+    color: red;
+}
+
+.online {
+    color: green;
+}

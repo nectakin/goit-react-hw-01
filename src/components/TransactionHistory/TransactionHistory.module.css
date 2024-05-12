@@ -1,0 +1,27 @@
+.table {
+    margin: 10px auto;
+    min-width: 500px;
+    border-collapse: collapse;
+
+    table-layout: fixed;
+}
+
+.tableHead tr {
+    text-align: center;
+
+    background-color: #353839;
+    color: #ffffff;
+}
+
+.tableHead th {
+    padding: 10px 0;
+    width: calc(100% / 3);
+}
+
+.table td {
+    padding: 10px 60px;
+}
+
+.tableBody tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
